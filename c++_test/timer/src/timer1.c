@@ -60,7 +60,7 @@ void my_task() {
 }
 
 // gcc -o mp main.c -lrt
-int main() {
+int timer_c_main() {
     int initial_seconds = 10;
     int interval_seconds = 5; // 定时器每5秒重复触发一次
     set_timer(initial_seconds, interval_seconds, my_task);
