@@ -6,7 +6,7 @@ CC = gcc
 CFLAGS = -Wall
 
 # 目标文件
-TARGET = mp
+TARGET = main
 OBJ_DIR = build
 
 # 源文件

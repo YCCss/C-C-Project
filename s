@@ -25,7 +25,7 @@ main() {
 		fi
 	elif [ $1 == "-r" ]; then
 		if [ -n "$2" ]; then  
-        	./$2/mp
+        	./$2/main
 		else 
 			usage
 		fi
